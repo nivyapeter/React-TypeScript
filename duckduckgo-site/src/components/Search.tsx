@@ -4,7 +4,7 @@ function Search() {
   return (
     <div className="flex">
       <div className="xl:w-96 md:w-44 ">
-        <div className="flex md:pb-1 rounded-3xl bg-[#337A9E] dataBlock items-center border-2 border-transparent focus-within:border-2 focus-within:border-white">
+        <div className="flex md:pb-1 items-center border-2 border-transparent focus-within:border-2 ">
           <div className="w-11/12">
             <input
               type="search"
