@@ -3,16 +3,13 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { BiChevronDown } from "react-icons/bi";
 
 
-type HeadeProps = {
-    icon?:any,
-    source?: any,
-}
 
-function Header(props:HeadeProps) {
+
+function Header() {
   return (
     <div className="max-w-[1400px] px-6 mx-auto h-auto text-[#222]">
         <div className="mt-5 flex items-center justify-end static">
-        <div className="text-[#aaa] ml-6 whitespace-nowrap z-auto leading-normal">
+        <div className="text-[#aaa] ml-6 whitespace-nowrap z-auto leading-normal mb-8">
             <span className="text-2xl cursor-pointer"></span>
             <span className="ml-[5px] cursor-pointer">
                 <BiChevronDown />

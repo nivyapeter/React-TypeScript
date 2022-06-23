@@ -10,7 +10,7 @@ type PersonalProp = {
 
 function PersonalInfo({title,subTitle}:PersonalProp) {
   return (
-    <div className="bg-[#E37151] h-auto text-center pt-8 hidden lg:block ">
+    <div className="bg-[#E37151] h-auto text-center pt-20 hidden lg:block ">
         <div className="w-[80%] max-w-[700px] mx-auto text-[#ffff] ">
             <h1 className="mt-4 mb-4 text-[44px] leading-10 font-extrabold">{title}</h1>
             <p className="text-xl leading-7 py-1">{subTitle}</p>
