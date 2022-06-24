@@ -3,3 +3,13 @@ export type Navdata = {
     icon?: string,
     class: string
 }
+
+export type Newsdata = {
+    id:number,
+    title:string,
+    website:string,
+    points:number,
+    text:string,
+    time:number,
+    comments?:number
+}
