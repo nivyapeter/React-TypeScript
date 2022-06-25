@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="min-w-[796px] w-[85%] m-auto bg-[#f6f6ef]">
       <NavBar  data={navBarItems}/>
-      <NewsBlock />
+      <NewsBlock  data={newsData}/>
       <Footer />
     </div>
 

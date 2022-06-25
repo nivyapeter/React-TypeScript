@@ -9,12 +9,14 @@ type NewsBlockProps = {
 
 function NewsBlock({ data }: NewsBlockProps) {
   return (
-    <div className="flex flex-row">
-        <div>
+    <div className="flex flex-col">
+      {data.map((data)=> {
+        return (
+          <div className="flex flex-row">
             
       <div className="flex flex-row items-baseline ">
         <span className="text-[#828282] m-1">
-          <span></span>
+          <span>{data.id}</span>
         </span>
         <img
           src="https://news.ycombinator.com/grayarrow2x.gif"
@@ -25,28 +27,32 @@ function NewsBlock({ data }: NewsBlockProps) {
       <div className="flex flex-col m-1">
         <div>
           <a className="text-[14px] font-sans" href="/">
-            ,m,nksdcsjksj kjckdshcksncskk ksndkc
+          {data.title}
           </a>
           <a
             className="text-[10px] text-[#828282] font-sans hover:underline"
             href="/"
           >
-            ( xbxmbcxmbc)
+            {data.website}
           </a>
         </div>
         <div className="text-xs text-[#828282]">
-          <span className="pr-1">54 points by</span>
-          <a href="/">mnbdjqhdj</a>
+          <span className="pr-1">{data.points} points by</span>
+          <a href="/">paulbaumgart</a>
           <a className="p-1" href="/">
-            6 hours ago
+            {data.time} hours ago
           </a>
           <span className="p-1">|</span>
           <span className="p-1">hide</span>
 
-          <span>|75 comments</span>
+          <span>|{data.comments} comments</span>
         </div>
       </div>
       </div>
+
+        )
+      })}
+       
     </div>
   );
 }
