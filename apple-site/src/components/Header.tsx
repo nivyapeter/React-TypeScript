@@ -1,5 +1,6 @@
 import React from 'react'
-import AiFillApple from "react-icons/ai";
+import AiFillApple, { AiOutlineSearch } from "react-icons/ai";
+// import IoBagOutline from "react-icons/io";
 
 function Header() {
   return (
@@ -43,13 +44,13 @@ function Header() {
             </li>
             <li>
                 <a href="">
-                    <span></span>
+                    <span><AiOutlineSearch /></span>
                 </a>
             </li>
             <li>
                 <div>
                     <a href="">
-                        <span></span>
+                        {/* <span><IoBagOutline /></span> */}
                     </a>
                 </div>
             </li>
