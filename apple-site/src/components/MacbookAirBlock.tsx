@@ -1,7 +1,8 @@
 import React from 'react'
+import whiteImg from "../Images/whiteImg.png";
 
 type MacBookProps = {
-    style: React.CSSProperties,
+    // style: React.CSSProperties,
     title:string,
     sub:string,
     text:string,
@@ -9,10 +10,10 @@ type MacBookProps = {
     buyText:string
 }
 
-function MacbookAirBlock({style,title,sub,text,linkText,buyText}:MacBookProps) {
+function MacbookAirBlock({title,sub,text,linkText,buyText}:MacBookProps) {
   return (
     <div  className='bg-[#fbfbfd] overflow-hidden flex-col flex'>
-        <div className='right-[240px] pt-[162px] text-center'>
+        <div className='absolute top-[17rem] left-[44rem] text-center'>
            <h2 className='mt-[7px] text-4xl font-semibold text-[#1d1d1f]'>{title}</h2>
            <h3 className='mt-[12px] text-3xl font-normal'>
             <span>{sub}</span>
@@ -28,7 +29,8 @@ function MacbookAirBlock({style,title,sub,text,linkText,buyText}:MacBookProps) {
            </div>
         </div>
         <div>
-            <figure style={style}></figure>
+            {/* <figure style={style}></figure> */}
+            <img className='h-[500px]' src={whiteImg} alt="" />
         </div>
 
     </div>
