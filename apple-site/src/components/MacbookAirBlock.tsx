@@ -13,7 +13,7 @@ type MacBookProps = {
 function MacbookAirBlock({title,sub,text,linkText,buyText}:MacBookProps) {
   return (
     <div  className='bg-[#fbfbfd] overflow-hidden flex-col flex'>
-        <div className='absolute top-[17rem] left-[44rem] text-center'>
+        <div className='absolute top-[49rem] left-[21rem] text-center'>
            <h2 className='mt-[7px] text-4xl font-semibold text-[#1d1d1f]'>{title}</h2>
            <h3 className='mt-[12px] text-3xl font-normal'>
             <span>{sub}</span>

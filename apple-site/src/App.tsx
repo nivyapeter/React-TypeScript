@@ -7,6 +7,7 @@ import applebg from "./Images/applebg.jpg";
 import MacbookAirBlock from './components/MacbookAirBlock';
 import whiteImg from "./Images/whiteImg.png";
 import UniversityBlock from './components/UniversityBlock';
+import GridSection from './components/GridSection';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       
       <MacbookAirBlock   title="MacBook Air" sub="Supercharged by M2"  text="Available in July" linkText="Learn more" buyText="View pricing"/>
       <UniversityBlock />
+      <GridSection />
     </div>
   );
 }
