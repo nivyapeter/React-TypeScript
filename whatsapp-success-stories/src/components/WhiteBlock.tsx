@@ -23,8 +23,8 @@ function WhiteBlock({ data }: whiteBlockProps) {
           {data.map((data) => {
             return (
               <div
-                className={`flex  flex-col justify-center items-center lg:${
-                  data.reverse ? "flex-row-reverse": "flex-row"
+                className={`flex  flex-col justify-center items-center ${
+                  data.reverse ? "lg:flex-row-reverse": "lg:flex-row"
                 }`}
               >
                 <div className="lg:w-1/2 text-center flex items-center justify-center lg:justify-between">
@@ -36,7 +36,7 @@ function WhiteBlock({ data }: whiteBlockProps) {
                 </div>
                 <div className="lg:w-1/2 text-left ">
                   <div>
-                    <h2 className="bg-transparent  text-[#43CD66] text-3xl mb-3">
+                    <h2 className="bg-transparent lg:px-8 text-[#43CD66] text-3xl mb-3">
                       ______
                     </h2>
                     <h2 className="lg:text-5xl text-[36px] mb-4">{data.title}</h2>
