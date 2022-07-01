@@ -8,7 +8,7 @@ type whiteBlockProps = {
 function WhiteBlock({ data }: whiteBlockProps) {
   return (
     <div className="bg-white ">
-      <div className="lg:mx-auto max-w-[1440px] lg:py-[96px] py-[56px] lg:px-[88px] mx-5">
+      <div className="lg:mx-auto max-w-[1440px] lg:py-[96px] py-[56px] lg:px-[88px] mx-5 2xl:px-[58px] ">
         <div className="max-w-[95%] flex flex-row mx-auto">
           <h2 className="text-center lg:text-5xl text-[36px] leading-10 mb-4 font-medium text-[#1c1e21]">
             WhatsApp Business enables small to large businesses everywhere the
@@ -19,7 +19,7 @@ function WhiteBlock({ data }: whiteBlockProps) {
           </h2>
         </div>
         <div className="lg:h-[88px] h-[56px]"></div>
-        <div className="max-w-[95%] flex flex-col mx-auto gap-8">
+        <div className="max-w-[95%] flex flex-col mx-auto gap-8 2xl:mx-0 2xl:max-w-none">
           {data.map((data) => {
             return (
               <div
@@ -34,12 +34,12 @@ function WhiteBlock({ data }: whiteBlockProps) {
                     alt=""
                   />
                 </div>
-                <div className="lg:w-1/2 text-left ">
+                <div className="lg:w-1/2 text-left 2xl:pl-10">
                   <div>
-                    <h2 className="bg-transparent lg:px-8 text-[#43CD66] text-3xl mb-3">
+                    <h2 className="bg-transparent lg:px-8 text-[#43CD66] text-3xl mb-3 2xl:px-0 ">
                       ______
                     </h2>
-                    <h2 className="lg:text-5xl text-[36px] mb-4">{data.title}</h2>
+                    <h2 className="lg:text-5xl text-[36px] mb-4 2xl:text-[48px]">{data.title}</h2>
                     <p className="text-[#526571] font-normal lg:text-lg text-[16px]">
                       {data.subTitle}
                     </p>
