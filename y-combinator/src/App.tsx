@@ -8,7 +8,7 @@ import {navBarItems,  newsData } from './constants';
 
 function App() {
   return (
-    <div className="min-w-[796px] w-[85%] m-auto bg-[#f6f6ef]">
+    <div className="lg:min-w-[796px] lg:w-[85%] m-auto mt-2 bg-[#f6f6ef]">
       <NavBar  data={navBarItems}/>
       <NewsBlock  data={newsData}/>
       <Footer />

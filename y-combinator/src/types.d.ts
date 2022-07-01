@@ -8,7 +8,7 @@ export type Newsdata = {
     id:number,
     title:string,
     website:string,
-    points:number,
+    points:string,
     text:string,
     time:number,
     comments?:number
