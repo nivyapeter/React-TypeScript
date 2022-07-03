@@ -20,7 +20,7 @@ const accordionData = [{
 
 function Question() {
   return (
-    <div className="max-w-[780px] mx-auto mt-[100px] mb-10  ">
+    <div className="max-w-[780px] mx-auto mt-[100px] mb-10 hidden lg:block ">
         <h2 className="my-12 p-0 text-center text-3xl font-extrabold text-[#353748]"></h2>
         <div className="px-5">
         
