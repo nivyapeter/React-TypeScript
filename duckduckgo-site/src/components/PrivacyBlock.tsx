@@ -26,7 +26,7 @@ function PrivacyBlock({text,data}:PrivacyProps) {
            })}
            
           </div>
-          <div className=" lg:-translate-y-20 absolute w-[100vw] bottom-[-2px] lg:bottom-[-32px] xl:bottom-[-458px] 2xl:bottom-[-149px] text-[#E37151] -z-1 hidden lg:block">
+          <div className=" lg:-translate-y-20 absolute w-[100vw] bottom-[-2px] lg:bottom-[-32px] xl:bottom-[-462px] 2xl:bottom-[-149px] text-[#E37151] -z-1 hidden lg:block">
           <svg className="content-info__curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1438 134"><path d="M1438 1442H0V31.001S438.105 0 719 .001c280.896 0 719 31 719 31V1442z" fill="currentColor"></path></svg>
           </div>
         </div>
