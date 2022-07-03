@@ -24,7 +24,7 @@ function UniversityBlock() {
                     <a className='text-[#0066cc]' href="">Shop Now</a>
                 </div>
           </div>
-          <div className='absolute top-0 left-0'>
+          <div className=' top-0 left-0'>
             <img className='h-[527px]' src={uiversity} alt="" />
           </div>
         </div>

@@ -30,7 +30,7 @@ function MacbookAirBlock({title,sub,text,linkText,buyText}:MacBookProps) {
         </div>
         <div>
             {/* <figure style={style}></figure> */}
-            <img className='h-[500px]' src={whiteImg} alt="" />
+            <img className=' h-[500px]' src={whiteImg} alt="" />
         </div>
 
     </div>
