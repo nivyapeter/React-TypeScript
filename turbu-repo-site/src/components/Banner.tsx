@@ -15,8 +15,8 @@ type BannerProps = {
 function Banner(props :BannerProps)  {
   return (
     <div className='pt-16 pb-8 px-4 mx-auto'>
-        <h1 className='font-extrabold text-center mx-auto  text-6xl max-w-[64rem] inline-block text-transparent bg-clip-text bg-gradient-to-r from-red-to-blue-500'>{props.heading}
-        <span>{props.text}</span>
+        <h1 className='font-extrabold text-center mx-auto  text-6xl max-w-[64rem] inline-block text-white'>{props.heading}
+        <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-to-blue-500'>{props.text}</span>
         </h1>
          <p className='mt-6 leading-5 font-medium texl-xl text-center mx-auto max-w-lg'>{props.subText}</p>
          <div className='mt-5 mx-auto max-w-xl'>
