@@ -5,6 +5,8 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Teams from './components/Teams';
 import Build from './components/Build';
+import { buildItems } from './constant'
+import ScalingBlock from './components/ScalingBlock';
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <Header />
       <Banner  heading="Monorepos that" text="make ship happen." subText="Turborepo is a high-performance build system for JavaScript and TypeScript codebases." buttonText="Start Building " buttonTextTwo="npx create-turbo"/>
      <Teams />
-     <Build  title="Build like the best" subTitle='Turborepo reimagines build system techniques used by Facebook and Google to remove maintenance burden and overhead.'/>
+     <Build  data={buildItems}/>
+     <ScalingBlock />
     </div>
   );
 }
