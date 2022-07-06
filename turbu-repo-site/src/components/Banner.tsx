@@ -15,8 +15,10 @@ type BannerProps = {
 function Banner(props :BannerProps)  {
   return (
     <div className='pt-16 pb-8 px-4 mx-auto'>
-        <h1 className='font-extrabold text-center mx-auto  text-6xl max-w-[64rem] inline-block text-white'>{props.heading}
-        <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-to-blue-500'>{props.text}</span>
+        <h1 className='max-w-5xl text-center mx-auto text-6xl font-extrabold tracking-tighter leading-[1.1] sm:text-7xl lg:text-8xl xl:text-8xl'>
+        Monorepos that
+        <br className='hidden lg:block'></br>
+        <span className='inline-block text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-blue-500 '>make ship happen.</span>
         </h1>
          <p className='mt-6 leading-5 font-medium texl-xl text-center mx-auto max-w-lg'>{props.subText}</p>
          <div className='mt-5 mx-auto max-w-xl'>
