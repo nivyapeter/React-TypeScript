@@ -7,6 +7,8 @@ import Teams from './components/Teams';
 import Build from './components/Build';
 import { buildItems } from './constant'
 import ScalingBlock from './components/ScalingBlock';
+import EngineersBlock from './components/EngineersBlock';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
      <Teams />
      <Build  data={buildItems}/>
      <ScalingBlock />
+     <EngineersBlock />
+     <Footer />
     </div>
   );
 }
