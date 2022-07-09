@@ -13,7 +13,7 @@ function Search() {
            <LogoText />
         </div>
       </div>
-      <div className='w-[720px]'>
+      <div className='w-[720px] mx-auto'>
         <button className='bg-white shadow-3xl w-full rounded-lg'>
 <div className='opacity-50 text-start text-base'>Search with Google or enter address</div>
 <input className='text-transparent h-full absolute opacity-0' type="search" />
