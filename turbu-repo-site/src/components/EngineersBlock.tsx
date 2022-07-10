@@ -13,7 +13,7 @@ function EngineersBlock() {
             <div className='flex p-4 bg-gray-600 rounded-md shadow-xl dark:bg-opacity-10'>
                 <div className='flex-shrink-0 mr-4'>
                     <span className='box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%'>
-                        <img className='rounded-full w-[11vw]' src={eng1} alt="engImg" />
+                        <img className='rounded-full w-[11vw] lg:w-[4vw]' src={eng1} alt="engImg" />
                     </span>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ function EngineersBlock() {
             <div className='flex p-4 bg-gray-600 rounded-md shadow-xl dark:bg-opacity-10'>
                 <div className='flex-shrink-0 mr-4'>
                     <span className='box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%'>
-                        <img className='rounded-full w-[11vw]' src={eng1} alt="engImg" />
+                        <img className='rounded-full w-[11vw] lg:w-[4vw]' src={eng1} alt="engImg" />
                     </span>
                 </div>
                 <div>
@@ -67,7 +67,7 @@ function EngineersBlock() {
             <div className='flex p-4 bg-gray-600 rounded-md shadow-xl dark:bg-opacity-10'>
                 <div className='flex-shrink-0 mr-4'>
                     <span className='box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%'>
-                        <img className='rounded-full w-[11vw]' src={eng1} alt="engImg" />
+                        <img className='rounded-full w-[11vw] lg:w-[4vw]' src={eng1} alt="engImg" />
                     </span>
                 </div>
                 <div>
@@ -94,7 +94,7 @@ function EngineersBlock() {
             <div className='flex p-4 bg-gray-600 rounded-md shadow-xl dark:bg-opacity-10'>
                 <div className='flex-shrink-0 mr-4'>
                     <span className='box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%'>
-                        <img className='rounded-full w-[11vw]' src={eng1} alt="engImg" />
+                        <img className='rounded-full w-[11vw] lg:w-[4vw]' src={eng1} alt="engImg" />
                     </span>
                 </div>
                 <div>
@@ -121,7 +121,7 @@ function EngineersBlock() {
             <div className='flex p-4 bg-gray-600 rounded-md shadow-xl dark:bg-opacity-10'>
                 <div className='flex-shrink-0 mr-4'>
                     <span className='box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%'>
-                        <img className='rounded-full w-[11vw]' src={eng1} alt="engImg" />
+                        <img className='rounded-full w-[11vw] lg:w-[4vw]' src={eng1} alt="engImg" />
                     </span>
                 </div>
                 <div>

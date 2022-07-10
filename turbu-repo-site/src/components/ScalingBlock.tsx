@@ -18,17 +18,19 @@ function ScalingBlock() {
         </div>
 
 
-    <div className='flex items-center max-w-2xl py-4 mx-auto space-x-4 px-4'>
+    <div className='flex items-center max-w-2xl py-4 mx-auto space-x-4'>
         <div className='mt-4 flex'>
-            <span className='box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%'>
-                <img className='w-[21vw] rounded-full' src={scalingImg} alt="scalingImage" />
+            <span className='lg:w-[16vw] xl:w-[10vw] box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%'>
+                <span className='box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%'>
+                <img className='w-[21vw] rounded-full'  src={scalingImg} alt="scalingImage" />
+                </span>
             </span>
             <div className='flex flex-col h-full space-y-3'>
                 <div className='-mb-4 dark:hidden'>
                     <span className='box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%'>
-                    <img className='w-[45vw] ml-8' src={scalingtext} alt="" />
+                    <img className='w-[45vw] ml-8 lg:w-[24vw] xl:w-[15vw]' src={scalingtext} alt="" />
                     </span>
-                    <div className='flex items-center justify-center w-[64vw]'>
+                    <div className='flex items-center justify-center w-[64vw] lg:justify-start'>
                         <a className='font-bold text-gray-400 no-underline' href="">Jared Palmer</a>
                         <div className='ml-2 text-gray-500'>Founder of Turborepo</div>
                     </div>

@@ -20,15 +20,15 @@ function Banner(props :BannerProps)  {
         <br className='hidden lg:block'></br>
         <span className='inline-block text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-blue-500 '>make ship happen.</span>
         </h1>
-         <p className='mt-6 leading-5 font-medium texl-xl text-center mx-auto max-w-lg'>{props.subText}</p>
-         <div className='mt-5 mx-auto max-w-xl'>
-            <div className='rounded-md '>
-                <a  className='text-black bg-white font-medium text-base border-transparentborder justify-center items-center w-full flex px-8 py-3' href="">{props.buttonText}</a>
+         <p className='mt-6 leading-5 font-medium texl-xl text-center mx-auto max-w-lg '>{props.subText}</p>
+         <div className='max-w-xl mx-auto mt-5 sm:flex sm:justify-center md:mt-8'>
+            <div className='rounded-md  '>
+                <a  className='flex items-center justify-center w-full px-8 py-3 text-base bg-white font-medium text-black no-underline  border border-transparent rounded-md  betterhover:dark:hover:bg-gray-300 betterhover:hover:bg-gray-700 md:py-3 md:text-lg md:px-10 md:leading-6' href="">{props.buttonText}</a>
 
 
             </div>
-            <div className='rounded-md relative mt-3'>
-                <button className='text-gray-300 border-gray-700 bg-opacity-5 bg-white font-medium text-sm  border justify-center items-center w-full flex '>
+            <div className='relative mt-3 rounded-md sm:mt-0 sm:ml-3'>
+                <button className='flex items-center justify-center w-full px-8 py-3 font-mono text-sm font-medium text-gray-600 bg-black border border-transparent border-gray-200 rounded-md bg-opacity-5 dark:bg-white dark:text-gray-300 dark:border-gray-700 dark:bg-opacity-5 betterhover:hover:bg-gray-50 betterhover:dark:hover:bg-gray-900 md:py-3 md:text-base md:leading-6 md:px-10'>
                   {props.buttonTextTwo}
                  <ButtonImg className='ml-2 w-6 h-6 -mr-3 text-gray-400' />
                 </button>
