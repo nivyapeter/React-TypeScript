@@ -2,6 +2,10 @@ import React from "react";
 import amazon from "../Assets/amazon.jpg";
 import react from "../Assets/react.png";
 import entomo from "../Assets/entomo.png";
+import youtube from "../Assets/youtube.png";
+import facebook from "../Assets/facebook.png";
+import wikipedia from "../Assets/wikipedia.jpeg";
+import reddit from "../Assets/reddit.jpeg";
 
 function LogoCard() {
   return (
@@ -30,7 +34,7 @@ function LogoCard() {
                 </div>
                 <div className="pt-[8px] text-centerrelative">
                   <span>
-                    Amazon
+                 Amazone
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
                       Sponsored
                     </span>
@@ -61,9 +65,8 @@ function LogoCard() {
                 </div>
                 <div className="pt-[8px] text-centerrelative">
                   <span>
-                    Amazon
+                  localhost
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
-                      Sponsored
                     </span>
                   </span>
                 </div>
@@ -91,10 +94,9 @@ function LogoCard() {
                   </div>
                 </div>
                 <div className="pt-[8px] text-centerrelative">
-                  <span>
-                    Amazon
+                  <span className="truncate ">
+                  lorien-stud
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
-                      Sponsored
                     </span>
                   </span>
                 </div>
@@ -123,9 +125,8 @@ function LogoCard() {
                 </div>
                 <div className="pt-[8px] text-centerrelative">
                   <span>
-                    Amazon
+                    Entomo
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
-                      Sponsored
                     </span>
                   </span>
                 </div>
@@ -140,7 +141,7 @@ function LogoCard() {
                     <div
                       className="h-full w-full absolute rounded-md"
                       style={{
-                        backgroundImage: `url(${entomo})`,
+                        backgroundImage: `url(${youtube})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
@@ -154,9 +155,9 @@ function LogoCard() {
                 </div>
                 <div className="pt-[8px] text-centerrelative">
                   <span>
-                    Amazon
+                  YouTube
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
-                      Sponsored
+
                     </span>
                   </span>
                 </div>
@@ -171,7 +172,7 @@ function LogoCard() {
                   <div
                       className="h-full w-full absolute rounded-md"
                       style={{
-                        backgroundImage: `url(${entomo})`,
+                        backgroundImage: `url(${facebook})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
@@ -185,9 +186,8 @@ function LogoCard() {
                 </div>
                 <div className="pt-[8px] text-centerrelative">
                   <span>
-                    Amazon
+                  Facebook
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
-                      Sponsored
                     </span>
                   </span>
                 </div>
@@ -202,7 +202,7 @@ function LogoCard() {
                   <div
                       className="h-full w-full absolute rounded-md"
                       style={{
-                        backgroundImage: `url(${entomo})`,
+                        backgroundImage: `url(${wikipedia})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
@@ -216,9 +216,8 @@ function LogoCard() {
                 </div>
                 <div className="pt-[8px] text-centerrelative">
                   <span>
-                    Amazon
+                  Wikipedia
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
-                      Sponsored
                     </span>
                   </span>
                 </div>
@@ -233,7 +232,7 @@ function LogoCard() {
                   <div
                       className="h-full w-full absolute rounded-md"
                       style={{
-                        backgroundImage: `url(${entomo})`,
+                        backgroundImage: `url(${reddit})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
@@ -247,9 +246,9 @@ function LogoCard() {
                 </div>
                 <div className="pt-[8px] text-centerrelative">
                   <span>
-                    Amazon
+                  Reddit
                     <span className="text-[0.9em] whitespace-nowrap block overflow-hidden text-ellipsis">
-                      Sponsored
+
                     </span>
                   </span>
                 </div>
