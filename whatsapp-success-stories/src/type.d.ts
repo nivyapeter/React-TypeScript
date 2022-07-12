@@ -3,7 +3,8 @@ export type customerConnectionData ={
     title:string,
     subTitle:string,
     arrowTitleOne:string,
-    arrowTitleTwo:string,
-    status:boolean,
-    reverse:boolean
+    arrowTitleTwo?:string,
+    status?:boolean,
+    reverse?:boolean,
+    className?:string
 }

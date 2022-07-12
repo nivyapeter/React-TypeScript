@@ -5,6 +5,8 @@ import Header from './components/Header';
 import SuccessStoryBanner from './components/SuccessStoryBanner';
 import WhiteBlock from './components/WhiteBlock';
 import customerConnection from "./constants";
+import GreenBlock from './components/GreenBlock';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <SuccessStoryBanner />
       <WhiteBlock  data={customerConnection}/>
+      <GreenBlock />
+      <Footer />
     </div>
   );
 }
