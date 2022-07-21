@@ -10,47 +10,47 @@ import Card9 from "./Assets/Card9.svg";
 
 export const buildItems = [
   {
-    image: {Card1},
+    image: Card1,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card2},
+    image: Card2,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card3},
+    image: Card3,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card4},
+    image: Card4,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card5},
+    image: Card5,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card6},
+    image: Card6,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card7},
+    image: Card7,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card8},
+    image: Card8,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
   {
-    image: {Card9},
+    image: Card9,
     title: "Incremental builds",
     subTitle: "Building once is painful enough, Turborepo will remember what you've built and skip the stuff that's already been computed.",
   },
